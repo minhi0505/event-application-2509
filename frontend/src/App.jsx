@@ -1,11 +1,10 @@
+import {RouterProvider} from "react-router-dom";
+import router from "./routes/route-config.jsx";
+
+const App = () => (
+        <RouterProvider router={router} />
+);
 
 
-const App = () => {
-  return (
-    <>
-        <h1>My Event App</h1>
-    </>
-  )
-}
 
 export default App
